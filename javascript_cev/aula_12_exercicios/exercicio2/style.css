@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(0, 0, 255, 0.681);
+    font: normal 15pt Arial;
+}
+
+h1{
+    color:#fff;
+    text-align: center;
+    text-shadow: 2px 2px 2px #333;
+}
+
+section{
+    background-color: #fff;
+    max-width: 600px;
+    min-width: 200px;
+    padding: 15px;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 2px 2px 2px #333;
+    overflow: hidden;
+}
+
+footer{
+    color:#fff;
+    text-align: center;
+}
+
+#div-input-number-1-nascimento{
+    margin-bottom: 1.3rem;
+}
+
+#div-input-number-1-nascimento>label{
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+#input-number-1{
+    border:2px solid #999;
+    font-size: 1.2rem;
+    padding: 5px;
+    outline-width: 0;
+}
+
+#fildset-sexo{
+    border: 2px solid #999;
+    border-radius: 10px;
+}
+
+#fildset-sexo legend{
+    text-align: start;
+    font-size:1.5rem;
+}
+
+.div-masculino, .div-feminino{
+    display: inline-block;
+}
+
+.div-masculino{
+    margin-right: 15px;
+}
+
+.div-masculino input,
+.div-feminino input{
+    margin: 0;
+}
+
+.btn{
+    width: 80%;
+    margin-top: 15px;
+    padding:5px;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+#div-input-radio-1-sexo{
+    text-align: center;
+}
+
+#foto{
+    width: 350px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    outline: 2px #999 solid;
+    outline-offset: 1px;
+}

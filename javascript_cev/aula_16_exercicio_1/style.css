@@ -1,0 +1,142 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: rgba(0, 0, 255,0.5);
+}
+
+h1{
+	text-align: center;
+	color: #fff;
+	font-family: monospace;
+	letter-spacing: 5px;
+	text-shadow: 2px 2px 2px #333;
+	font-size: 2.5rem;
+}
+
+section{
+	width: 600px;
+	background-color: #999;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px #333;
+}
+div{
+	width: 80%;
+	margin-top: 1.2rem;
+	margin-bottom: 1.2rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div *{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+label{
+	margin:0;
+	color:#fff;
+	font-family: monospace;
+	font-size: 1.3rem;
+	font-weight: bolder;
+}
+
+div>input{
+	width: 30%;
+	margin:0 5px;
+	height: 2rem;
+	border-radius:5px;
+	font-family: system-ui;
+	font-size:20px;
+	padding: 5px;
+}
+
+ select{
+	display: block;
+	width: 50%;
+	text-align: center;
+	font-family: monospace;
+	font-size: 1.2rem;
+	background-color: antiquewhite;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	margin-bottom: 1.2rem;
+ }
+
+ button {
+	width: 80%;
+	padding: 5px;
+	display: block;
+	font-family: system-ui;
+	border: 1px solid #fff;
+	background-color: #7F7FFF;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+ }
+ button:hover{
+	opacity: 0.8;
+ }
+
+ button:active{
+	position: relative;
+	left: 2px;
+	top: 2px;
+ }
+
+.primeira_linha{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.linha1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.divResposta{
+	font-family: helvetica;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding:5px 15px;
+	border-radius: 3px;
+	color:#7F7FFF;
+	border:#555 2px solid;
+	font-weight: bold;
+	background-color: #fff;
+	text-align:center;
+	text-shadow: .5px 1px #333;
+	margin: 10px auto;
+}
+
+#add{
+	margin:0;
+}
+
+@media (max-width: 708px){
+	h1{
+		font-size: 1.5rem;
+	}
+}
+
+@media (max-width: 650px){
+	section{
+		width:300px;
+	}
+	h1{
+		font-size: 1.4rem;
+	}
+}

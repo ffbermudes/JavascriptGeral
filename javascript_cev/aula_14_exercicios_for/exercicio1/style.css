@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+body{
+    background-color: rgba(0, 0, 255,0.5);
+}
+
+div{
+    margin-bottom: 1.2rem;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+section{
+    width: 500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #222;
+    margin: auto;
+}
+
+label, button, input{ /*Tamanho das fontes de todos campos de texto [MENOS H1]*/
+    font: 1.4rem Arial, sans-serif;
+}
+
+input,label{
+    display: block;
+    margin: auto;
+    width: 30%;
+}
+
+label{
+    margin-bottom:0.3rem;
+}
+
+input{
+    height: 30px;
+    text-align:start;
+    color: #333;
+    padding-left: 10px;
+}
+
+h1{
+    font: 2.3rem system-ui;
+    text-align: center;
+    margin:2rem 0;
+    color:#fff;
+    text-shadow: #222 1px 1px 2px;
+}
+
+button{
+    padding: 5px;
+    width: 120px;
+    display: block;
+    margin: auto;
+}
+
+footer{
+    text-align: center;
+    margin:2rem 0;
+    font: 1.4rem system-ui;
+    color:#fff;
+    text-shadow: #222 1px 1px 2px;
+}
+
+#res{
+    width: 300px;
+}
+
+.sefalso{
+    color: red;
+    font-weight: bolder;
+    font-family: monospace;
+    font-size: 20px;
+    width:100%;
+    text-align: center;
+}
+
+.severdadeiro{
+    color: rgba(0, 0, 255,0.5);
+    font-weight: bolder;
+    font-family: monospace;
+    font-size: 20px;
+    width:100%;
+    text-align: center;
+}

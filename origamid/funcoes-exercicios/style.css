@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body{
+    height:200vh;
+}
+
+#res{
+    color: #000;
+    font-weight:300;
+    background-color: lightblue;
+    padding: 5px; 
+    margin:25px auto;
+    border-radius: 5px;
+    text-align:center;
+    border:solid 1px #000;
+    font-family: monospace;
+    font-size:1.5rem;
+    width:300px;
+    box-shadow: #000 1px 1px 2px;
+}
+
+#res-negacao{
+    color: #000;
+    font-weight:300;
+    background-color: lightcoral;
+    padding: 5px; 
+    margin:25px auto;
+    border-radius: 5px;
+    text-align:center;
+    border:solid 1px red;
+    font-family: monospace;
+    font-size:1.5rem;
+    width:300px;
+    box-shadow: #000 1px 1px 2px;
+}

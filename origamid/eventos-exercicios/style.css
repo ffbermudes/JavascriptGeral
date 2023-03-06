@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.ativo{
+    border:3px solid tomato;
+}
+.desativado{
+    border:none;
+}
